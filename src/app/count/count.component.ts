@@ -7,9 +7,9 @@ import {Component, OnInit, Input, EventEmitter, Output} from '@angular/core';
 })
 export class CountComponent implements OnInit {
 
-  @Input() valor: number = 5;
+  @Input() valor: 5;
 
-  @Output('outEvent') onChange = new EventEmitter();
+  @Output() onChange = new EventEmitter();
 
   decrement() {
     this.valor--;

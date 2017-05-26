@@ -3,6 +3,6 @@
   <h1>
     {{title}}
   </h1>
-  <span class="label label-success">Success</span>
-  <app-count valor="20" (outEvent)="myOnChange($event)"></app-count>
+  <app-count valor="20" (onChange)="myOnChange($event)"></app-count>
+  <span class="label label-success">{{value}}</span>
 </div>
