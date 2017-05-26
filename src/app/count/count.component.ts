@@ -9,7 +9,7 @@ export class CountComponent implements OnInit {
 
   @Input() valor: number = 5;
 
-  @Output() onChange = new EventEmitter();
+  @Output('outEvent') onChange = new EventEmitter();
 
   decrement() {
     this.valor--;
